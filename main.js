@@ -39,7 +39,7 @@ const costTotal = document.querySelector("#mail4")
 
 function calcularCost() {
     send.onclick = () =>{
-     const inputValue = coches.value + 
+     const inputValue = coches.value + costHotel.value + costAlquiler.value + costAvion.value + option.value
      costTotal.textContent = inputValue
     }
 }
